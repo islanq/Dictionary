@@ -1,0 +1,17 @@
+<script> 
+
+    document.getElementById("btn").addEventListener("click", doStuff);
+    
+    function doStuff() {
+     
+     
+       var fn  = document.getElementById("first-name").value;
+       var ln  = document.getElementById("last-name").value;
+       var app = document.getElementById("app").value;
+      
+
+      
+      alert(app);
+      google.script.run.appendWord(fn);
+    }               
+</script>

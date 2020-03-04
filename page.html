@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base target="_top">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <?!= include("page-css"); ?>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-sm">
+       <!-- LEFT -->
+      </div>
+        
+      <div class="col-sm"> <!-- START CENTER COLUMN -->
+       
+       
+      
+        
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">First</span>
+          </div>
+          <input type="text" class="form-control" id="first-name" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Last</span>
+          </div>
+          <input type="text" class="form-control" id="last-name" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+       
+       
+        <div class="input-group">
+          <select class="custom-select" id="app" aria-label="Example select with button addon">
+            <option selected>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" id="btn">Button</button>
+          </div>
+        </div>
+       
+      </div> <!-- END CENTER COLUMN -->
+      
+      
+      
+      
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      
+      
+      
+      <div class="col-sm">
+        <!-- RIGHT -->
+      </div>
+    
+    </div> <!-- END ROW -->
+  </div> <!-- END CONTAINER -->
+  
+  
+  
+  
+  
+  
+  
+  
+ <!-- 
+    <div class="form-element">
+        <input id="fn" type="text">
+        <label for="fn">First Name</label>
+    </div>
+    <div class="form-element">
+        <input id="ln" type="text">
+        <label for="ln">Last Name</label>
+    </div>
+
+    <div class="form-element">
+        <select id="app">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>
+    </div>
+ -->
+  
+  
+  <?!= include("boostrap-js"); ?>
+  <?!= include("page-js"); ?>
+</body> <!-- END BODY -->
+
+
+</html>
